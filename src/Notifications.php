@@ -278,6 +278,9 @@ class Notifications
 
                 return true;
             })
+            
+            ->setDefined('ios_category')
+            ->setAllowedTypes('ios_category', 'string')
             ->setDefined('chrome_icon')
             ->setAllowedTypes('chrome_icon', 'string')
             ->setDefined('chrome_big_picture')
